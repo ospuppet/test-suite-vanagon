@@ -1,0 +1,27 @@
+---
+require:
+- rubocop-rake
+
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+  Exclude:
+  - "**/*.erb"
+  - spec/**/*
+  - vendor/**/*
+  - examples/**/*
+
+Metrics/BlockLength:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Rake/Desc:
+  Enabled: false

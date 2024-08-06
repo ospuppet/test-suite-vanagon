@@ -1,5 +1,7 @@
-component "dummy" do |pkg, settings, platform|
-  pkg.add_source "file://resources/testfile1.sh"
+# frozen_string_literal: true
+
+component 'dummy' do |pkg, settings, _platform|
+  pkg.add_source 'file://resources/testfile1.sh'
 
   # The purpose of this component is to build as fast as possible, primarily used for testing changes to vanagon
 

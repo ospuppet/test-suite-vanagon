@@ -1,3 +1,11 @@
+vendor/*
+output/*
+.bundle
+gems
+Gemfile.local
 Gemfile.lock
-output/
-vanagon_hosts.log
+*.log
+ext/packaging
+ext/build_metadata.json
+pkg
+*.swp
